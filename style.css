@@ -1,0 +1,364 @@
+ 
+  *{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    background: url(pic/bg.jpg);
+    background-position: center;
+    background-position: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+}
+
+
+ul li a:hover{
+    color: palevioletred;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 55px;
+    color: black;
+}
+
+.info h3{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.info span{
+    color: palevioletred;
+}
+
+.info a{
+    text-decoration: none;
+    color: azure;
+    background: rgb(36, 32, 30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+
+.info a:hover{
+    background: palevioletred;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4 ease;
+}
+
+.icons ion-icon:hover{
+    color: palevioletred;
+}
+
+
+/*ABOUT SECTION*/
+
+.about{
+    width: 100%;
+    height: 15vh;
+    padding: 90px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.pic{
+    height: auto;
+    width: 320px;
+    }
+
+.text{
+    width: 540px;
+    
+}
+
+.text h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+span {
+    color: palevioletred;
+
+
+
+}
+.text p {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+/*CONTACT SECTION*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(36, 32, 30);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: rgb(36, 32, 30);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(36, 32, 30);
+  }
+
+
+/*SKILLS SECTION*/
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.skills{
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto; 
+        padding: 12px 24px;
+        border-radius: 10px;
+        background-color: grey;
+        pointer-events: none;
+        position: absolute; 
+        right: 0;
+        left: 0;
+        top:250px; 
+    
+    }
+
+.skills .skill{
+    width: 100%;
+    margin: 26px 0;
+}
+
+.skills .tittle {
+    color: black;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.skill .skill-bar{
+    width: 100%;
+    height: 10px;
+    margin-top: 4px;
+    border-radius: 12px;
+    background: #333;
+}
+
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 42%;
+    border-radius: 12px;
+    background: palevioletred;
+    opacity: 0;
+    animation: progress 0.4s ease-in-out forwards;
+}
+.skill-per.css{
+    width: 42%;
+    animation-delay: 0.1s;
+}
+.skill-per.python{
+    width: 26%;
+    animation-delay: 0.2s;
+}
+
+.skill-per.Productmanagement{
+    width: 62%;
+    animation-delay: 0.3s;
+
+}
+    
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.skill-per .percent {
+    position: absolute;
+    right: 14px;
+    top: -30px;
+    background: palevioletred;
+    color: white;
+    font-size: 12px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    z-index: 1;
+
+}
+
+.percent::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    background: palevioletred;
+    bottom: -2px;
+    z-index: -1;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+/*PROJECTS SECTION*/
+
+.projects {
+    background-color: grey;
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-title{
+    text-align: center;
+    margin-bottom: 1rem;
+
+  }
+
+  .project-container{
+    text-align: center;
+    width: 21.875rem;
+    height: 280px;
+    padding: 1rem;
+    
+  }
+
+  .project-container p {
+    padding: 0.4rem;
+}
+
+  .project-title {
+  margin-bottom: 0;
+}
+
+.project-details {
+  margin-bottom:0;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px;
+  padding: 20px;
+  margin: 10px;
+}
