@@ -60,11 +60,11 @@
     }
 
 .project-container {
-        width: 100%; 
+        max-width: 100%; 
 }
 
 .project-pic {
-        width: 100%;
+        width: 50%;
         height: auto; 
 }
         
@@ -408,6 +408,8 @@ body{
   .project-container{
     text-align: center;
     width: 100%;
+    max-width: 400px;
+    padding: 1rem;
     height: 280px;
     padding: 1rem;
     
