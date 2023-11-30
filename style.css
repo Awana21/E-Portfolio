@@ -1,11 +1,10 @@
 @media screen and (max-width: 768px) {
-    .navbar {
+.navbar {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
-    .navbar .logo {
+.navbar .logo {
         margin-top: 0;
         margin-left: 0;
     }
@@ -29,32 +28,35 @@
         padding: 10% 0;
     }
 
-    .text {
+.text {
         margin-top: 10px; 
     }
 
-    .text h5 {
+.text h5 {
         font-size: 1.8em;
     }
 
-    .text p {
+.text p {
         font-size: 0.9em; 
     }
 
-    .info a {
+.info a {
         margin: 15px 0;
     }
 
-    .icons {
+.icons {
         margin-top: 10px;
     }
 
-    .icons a {
+.icons a {
         margin-right: 1em;
     }
 
-    .icons ion-icon {
+.icons ion-icon {
         font-size: 30px;
+    }
+.skills {
+        top: 100px;
     }
 /*MAIN SECTION*/
     
