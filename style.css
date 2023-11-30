@@ -56,7 +56,8 @@
         font-size: 30px;
     }
 .skills {
-        top: 10px;
+        top: 30px;
+        padding: 12px;
     }
 /*MAIN SECTION*/
     
@@ -335,15 +336,10 @@ body{
 }
     
 @keyframes progress{
-    0%{
-        width: 0;
-        opacity: 0;
-    }
-
-    100%{
+    to {
         opacity: 1;
+        width: var(--skill-width);
     }
-}
 
 .skill-per .percent {
     position: absolute;
