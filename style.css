@@ -58,9 +58,16 @@
 .skills {
         top: 30px;
     }
-/*MAIN SECTION*/
-    
-    
+
+.project-container {
+        width: 100%; 
+
+.project-pic {
+        width: 100%;
+        height: auto; 
+        
+  /*MAIN SECTION*/
+  
   *{
     margin:0;
     padding:0;
