@@ -134,44 +134,63 @@ ul li a:hover{
 
 /*ABOUT SECTION*/
 
-.about{
-    width: 100%;
-    height: 15vh;
-    padding: 90px 0;
+.about {
+    width: 90%;
+    max-width: 1200px; /* Set a maximum width for larger screens */
     margin: 0 auto;
+    padding: 5% 0; /* Adjust padding based on percentage of the screen height */
     display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
     align-items: center;
     justify-content: space-around;
-    
 }
 
-.pic{
+.pic {
+    width: 100%;
+    max-width: 320px; /* Adjust maximum width for the image */
     height: auto;
-    width: 320px;
-    }
+}
 
-.text{
-    width: 540px;
-    
+.text {
+    width: 100%;
+    max-width: 540px; /* Adjust maximum width for the text container */
+    margin-top: 20px; /* Add some space between the image and text on smaller screens */
 }
 
 .text h5 {
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 20px;
+    font-size: 2em; /* Use relative units for font size */
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
 }
 
 span {
     color: palevioletred;
-
-
-
 }
+
 .text p {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 1em; /* Use relative units for font size */
+    line-height: 1.5;
     letter-spacing: 1px;
 }
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 10% 0; /* Adjust padding for smaller screens */
+    }
+
+    .text {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .text h5 {
+        font-size: 1.8em; /* Adjust font size for smaller screens */
+    }
+
+    .text p {
+        font-size: 0.9em; /* Adjust font size for smaller screens */
+    }
+}
+
 
 
 
