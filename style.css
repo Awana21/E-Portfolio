@@ -50,7 +50,7 @@
     }
 
     .icons a {
-        margin-right: 10px;
+        margin-right: 1em;
     }
 
     .icons ion-icon {
@@ -58,7 +58,9 @@
     }
 }
 
-  *{
+/*Main SECTION*/
+
+  {
     margin:0;
     padding:0;
 }
@@ -191,7 +193,7 @@ ul li a:hover{
 }
 
 .text h5 {
-    font-size: 2em; 
+    font-size: 1.8em; 
     margin-bottom: 10px;
 }
 
@@ -200,7 +202,7 @@ span {
 }
 
 .text p {
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.5;
     letter-spacing: 1px;
 }
@@ -292,7 +294,7 @@ body{
 .skills .tittle {
     color: black;
     display: block;
-    font-size: 16px;
+    font-size: 1.6em;
     font-weight: 600;
 }
 
