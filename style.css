@@ -65,7 +65,7 @@
 
 .project-pic {
         width: 50%;
-        height: auto; 
+        max-height: 100%; 
 }
         
   /*MAIN SECTION*/
@@ -391,6 +391,8 @@ body{
   .project-pic {
     width: 100%;
     height: auto;
+    max-height: 150px; /* Added to limit the maximum height of the image */
+    border-radius: 8px;
   }
   
   .projects-container {
@@ -414,15 +416,18 @@ body{
     height: 280px;
     padding: 1rem;
     margin: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     
   }
 
   .project-container p {
     padding: 0.4rem;
+    margin: 0;
 }
 
   .project-title {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+  color: #333;
 }
 
 .project-details {
@@ -435,4 +440,5 @@ body{
   box-shadow: 0 3px 10px;
   padding: 20px;
   margin: 10px;
+  overflow: hidden;
 }
