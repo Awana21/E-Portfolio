@@ -336,9 +336,13 @@ body{
 }
     
 @keyframes progress{
-    to {
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+
+    100%{
         opacity: 1;
-        width: var(--skill-width);
     }
 
 .skill-per .percent {
