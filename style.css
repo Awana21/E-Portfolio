@@ -273,17 +273,17 @@ body{
 }
 
 .skills{
-        max-width: 500px;
-        width: 100%;
-        margin: 0 auto; 
-        padding: 12px 24px;
-        border-radius: 10px;
-        background-color: grey;
-        pointer-events: none;
-        position: absolute; 
-        right: 0;
-        left: 0;
-        top:250px; 
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: grey;
+    pointer-events: none;
+    position: relative; 
+    right: 0;
+    left: 0;
+    top:50px; 
     
     }
 
