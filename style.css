@@ -34,7 +34,7 @@
     background: url(bg.jpg);
     background-position: center;
     background-size: cover;
-    height: 115vh;
+    height: 120vh;
     position: relative;
     font-family: sans-serif;
 }
@@ -136,30 +136,30 @@ ul li a:hover{
 
 .about {
     width: 90%;
-    max-width: 1200px; /* Set a maximum width for larger screens */
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 5% 0; /* Adjust padding based on percentage of the screen height */
+    padding: 5% 0; 
     display: flex;
-    flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: space-around;
 }
 
 .pic {
     width: 100%;
-    max-width: 320px; /* Adjust maximum width for the image */
+    max-width: 320px; 
     height: auto;
 }
 
 .text {
     width: 100%;
-    max-width: 540px; /* Adjust maximum width for the text container */
-    margin-top: 20px; /* Add some space between the image and text on smaller screens */
+    max-width: 540px;
+    margin-top: 20px;
 }
 
 .text h5 {
-    font-size: 2em; /* Use relative units for font size */
-    margin-bottom: 10px; /* Adjust margin for smaller screens */
+    font-size: 2em; 
+    margin-bottom: 10px;
 }
 
 span {
@@ -167,7 +167,7 @@ span {
 }
 
 .text p {
-    font-size: 1em; /* Use relative units for font size */
+    font-size: 1em;
     line-height: 1.5;
     letter-spacing: 1px;
 }
@@ -175,19 +175,19 @@ span {
 /* Media Query for smaller screens */
 @media screen and (max-width: 768px) {
     .about {
-        padding: 10% 0; /* Adjust padding for smaller screens */
+        padding: 10% 0;
     }
 
     .text {
-        margin-top: 10px; /* Adjust margin for smaller screens */
+        margin-top: 10px; 
     }
 
     .text h5 {
-        font-size: 1.8em; /* Adjust font size for smaller screens */
+        font-size: 1.8em;
     }
 
     .text p {
-        font-size: 0.9em; /* Adjust font size for smaller screens */
+        font-size: 0.9em; 
     }
 }
 
