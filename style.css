@@ -154,7 +154,7 @@ ul li a:hover{
 .text {
     width: 100%;
     max-width: 540px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .text h5 {
@@ -179,7 +179,7 @@ span {
     }
 
     .text {
-        margin-top: 5px; 
+        margin-top: 10px; 
     }
 
     .text h5 {
