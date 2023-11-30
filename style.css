@@ -24,6 +24,41 @@
         margin-top: 0;
     }
 } 
+
+.about {
+        padding: 10% 0;
+    }
+
+    .text {
+        margin-top: 10px; 
+    }
+
+    .text h5 {
+        font-size: 1.8em;
+    }
+
+    .text p {
+        font-size: 0.9em; 
+    }
+}
+
+    .info a {
+        margin: 15px 0;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+    .icons a {
+        margin-right: 10px;
+    }
+
+    .icons ion-icon {
+        font-size: 30px;
+    }
+}
+
   *{
     margin:0;
     padding:0;
@@ -117,6 +152,7 @@ ul li a:hover{
 .icons a{
     text-decoration: none;
     color: #000;
+    margin-right: 20px;
 }
 
 .icons ion-icon{
@@ -130,8 +166,6 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: palevioletred;
 }
-
-
 /*ABOUT SECTION*/
 
 .about {
@@ -171,28 +205,6 @@ span {
     line-height: 1.5;
     letter-spacing: 1px;
 }
-
-/* Media Query for smaller screens */
-@media screen and (max-width: 768px) {
-    .about {
-        padding: 10% 0;
-    }
-
-    .text {
-        margin-top: 10px; 
-    }
-
-    .text h5 {
-        font-size: 1.8em;
-    }
-
-    .text p {
-        font-size: 0.9em; 
-    }
-}
-
-
-
 
 /*CONTACT SECTION*/
 
