@@ -24,7 +24,7 @@
 }
 
 .navbar .logo{
-    width: 160%;
+    width: 160px;
     cursor: pointer;
     margin-top: -3%;
     margin-left: -2%;
@@ -361,4 +361,16 @@ body{
   box-shadow: 0 3px 10px;
   padding: 20px;
   margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    /* Styles for small screens */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles for large screens */
 }
