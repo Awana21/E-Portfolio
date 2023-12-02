@@ -77,7 +77,7 @@
 
 .main{
     width:100%;
-    background: url(pic/bg.jpg);
+    background: url(bg.jpg);
     background-position: center;
     background-position: cover;
     height: 100vh;
